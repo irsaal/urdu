@@ -1,2 +1,12 @@
-# urdu
-This is the original version of the tool, designed for use with Urdu.
+# IRSAAL-urdu
+### This is the original version of the tool, designed for use with Urdu.
+
+
+
+This Google Sheets-based tool was developed for regularizing social media discourse in Urdu and its various orthographies. The aim is to have a user-friendly tool with a low bar to entry, which provides reliable regularisation of Urdu text corpora and an easy means to convert Roman Urdu texts into Perso-Arabic ones. We designed this tool to be easily modifiable per one’s purpose and their corpus. Users will get the most out of this tool if they know (1) the problem they are trying to solve, (2) the purpose of their inquiry, and (3) the words that are high-frequency, highly orthographically irregular, and especially salient for research.							
+
+
+The tool is divided into six component parts and is accompanied by an introduction and formula list. The first (1) component is your cleaned corpus. For more on how to clean an Urdu corpus specifically, see URDU CLEANING GUIDE. The second (2) component involves “getting to know your corpus” so that you can edit other elements of the tool, increase its accuracy, and contribute to the wider word banking element. The third (3) component is the word bank, which accommodates words that would not successfully be transformed using regex formulas. The fourth (4) component is the regex transformer, which comprises a series of transformations using regex formulas towards an intermediary, standard romanization, which can then be used for analysis on a standardized Roman Urdu corpus, or which can be converted into the Perso-Arabic script for comparison with the much larger dataset in that script. The fifth (5) component script converter draws from the final list of transformed words to produce an analogue word in the perso-Arabic script using a lookup table and formulas that split, transform, and concatenate the individual letters. The sixth (6) component is a static lookup table, which serves as the cipher for the converter functions in the converter as well as the test feature for the word bank.				
+					
+
+This tool in its current form is indebted to several other projects. The fourth and fifth components of the tool are based on a tool developed by Michael P. Williams, the Head of Global Studies Technical Services at UPenn Libraries. Williams previously developed an Excel-based tool, hosted on GitHub (https://bit.ly/3g4YjhT), for transliterating Roman scripts into other vernacular scripts for the library catalogue. We also drew considerably on Zareen Sharf and Saif Ur Rahman’s method for normalizing of Roman Urdu text (2017), as well as to a lesser extent Irvine, Weese, and Callison-Burch’s work (2012) to normalize and deromanize Urdu text messages. Additionally, we are indebted to the support of the Price Lab at the University of Pennsylvania, without which this project would not have been possible. 
