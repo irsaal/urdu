@@ -1,10 +1,10 @@
 # IRSAAL-Urdu
 
 
-IRSAAL-Urdu is a Google Sheets-based tool developed for regularizing social media discourse in Urdu and its various orthographies. The aim is to have a user-friendly tool with a low bar to entry, which provides reliable regularisation of Urdu text corpora and an easy means to convert Roman Urdu texts into Perso-Arabic ones. We designed this tool to be easily modifiable per one’s purpose and their corpus. Users will get the most out of this tool if they know (1) the problem they are trying to solve, (2) the purpose of their inquiry, and (3) the words that are especially frequent, orthographically irregular, and salient for research.
+<span style="color:blue">**IRSAAL-Urdu**</span> is a Google Sheets-based tool developed for regularizing social media discourse in Urdu and its various orthographies. The aim is to have a user-friendly tool with a low bar to entry, which provides reliable regularisation of Urdu text corpora and an easy means to convert Roman Urdu texts into Perso-Arabic ones. We designed this tool to be easily modifiable per one’s purpose and their corpus. Users will get the most out of this tool if they know (1) the problem they are trying to solve, (2) the purpose of their inquiry, and (3) the words that are especially frequent, orthographically irregular, and salient for research.
 
 ## Prerequisites
-Users will need a Google email address, a Github account, and a corpus. Users will benefit from experience with regular expressions (Regex)--see [this tutorial](https://regexone.com) for some of the basic principles. If you don't have a corpus and want to experiment with the tool, you might use a corpus prepared by Sharf and Ur Rahman, found [here](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set). 
+Users will need a Google email address, a **Github account**, and a corpus. Users will benefit from experience with regular expressions (**Regex**)--see [this tutorial](https://regexone.com) for some of the basic principles. If you don't have a corpus and want to experiment with the tool, you might use a corpus prepared by Sharf and Ur Rahman, found [here](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set). 
 
 
 ## What It Looks Like
