@@ -6,9 +6,9 @@ IRSAAL-Urdu is a Google Sheets-based tool developed for regularizing social medi
 ## Prerequisites
 Users will need a Google email address and a corpus. Users will benefit from experience with regular expressions (Regex)--see [this tutorial](https://regexone.com) for some of the basic principles. If you don't have a corpus and want to experiment with the tool, you might use a corpus prepared by Sharf and Ur Rahman, found [here](https://archive.ics.uci.edu/ml/datasets/Roman+Urdu+Data+Set). 
 
-![Screenshot of the Tool in Google Sheets](https://github.com/irsaal/urdu/blob/344f54f2197248635edf9173ff0b278f0abec028/tool_screenshot.png)
 
 ## What It Looks Like
+![Screenshot of the Tool in Google Sheets](https://github.com/irsaal/urdu/blob/344f54f2197248635edf9173ff0b278f0abec028/tool_screenshot.png)
 The tool is divided into six component parts and is accompanied by an introduction and formula list. The first (1) component is your cleaned corpus. For more on how to clean an Urdu corpus specifically, see URDU CLEANING GUIDE. The second (2) component involves “getting to know your corpus” so that you can edit other elements of the tool, increase its accuracy, and contribute to the wider word banking element. The third (3) component is the word bank, which accommodates words that would not successfully be transformed using regex formulas. The fourth (4) component is the regex transformer, which comprises a series of transformations using regex formulas towards an intermediary, standard romanization, which can then be used for analysis on a standardized Roman Urdu corpus, or which can be converted into the Perso-Arabic script for comparison with the much larger dataset in that script. The fifth (5) component script converter draws from the final list of transformed words to produce an analogue word in the perso-Arabic script using a lookup table and formulas that split, transform, and concatenate the individual letters. The sixth (6) component is a static lookup table, which serves as the cipher for the converter functions in the converter as well as the test feature for the word bank.				
 					
 ## Gratitude
